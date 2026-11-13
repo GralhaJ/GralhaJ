@@ -39,6 +39,8 @@ The SIBGRAPI study and the NIST submission are **related efforts within the team
 ### [FFC-Dataset-10k — Face Verification Benchmark](https://github.com/GralhaJ/FFC-Dataset-10k)
 The reproducibility resources for my **SIBGRAPI 2026 research paper**, including **dataset-selection metadata** and a working example of an **ArcFace embedding and evaluation notebook**.
 
+**Research highlights:** 11-model benchmark · 10,000 images · 5,000 identities · ArcFace **F1 0.8170 / EER 1.34%** at the 10k-image setting. [See complete metrics and experimental limitations](https://github.com/GralhaJ/FFC-Dataset-10k/blob/main/BENCHMARK_RESULTS.md).
+
 `Python` · `Computer Vision` · `Face Verification` · `DeepFace` · `Model Evaluation`
 
 ### [Gotcha GPT — AI-Generated Academic Text Detection](https://github.com/andresilvapimentel/gotcha-gpt)
