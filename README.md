@@ -6,34 +6,40 @@ I'm a Computer Engineering undergraduate at **PUC-Rio** in Rio de Janeiro, Brazi
 
 I enjoy building reliable, reproducible ML workflows — from dataset curation and feature extraction to benchmarking models and interpreting their results.
 
-## 🔬 Research — CEIA / NoLeak IV
+## 🔬 Research — CEIA-UFG / NoLeak IV
 
-I participate in research at **CEIA-UFG (Centro de Excelência em Inteligência Artificial)**, working on face-recognition research and ML evaluation.
+I'm involved in AI research at **CEIA-UFG (Centro de Excelência em Inteligência Artificial)**, with a focus on **face verification**, benchmarking, and computer vision.
 
-**Areas I've contributed to:**
-- **Face recognition and verification:** experiments with pretrained embedding models, including **ArcFace, FaceNet, and LVFace**.
-- **Dataset curation and reproducibility:** work on **FFC-10k**, a face dataset with **10,000 images across 5,000 identities**.
-- **ML evaluation:** comparisons using **ROC-AUC, Equal Error Rate (EER), precision, recall, F1-score**, and verification metrics at operating thresholds.
-- **AI-generated image detection:** research using monocular depth estimation models, including **Depth Anything**, to investigate real-vs-synthetic image classification.
+### My contributions
+
+- **Dataset development:** helped build and curate the **Frontal Face Composition Dataset (FFC-10k)**, containing **10,000 face images representing 5,000 identities**, collected from seven source datasets. The public project includes selection metadata and reproducibility resources.
+- **Model benchmarking:** ran and analyzed a systematic comparison of **11 pretrained face-embedding models**, including **FaceNet, FaceNet512, and ArcFace**, under a consistent verification protocol. The study used face detection/alignment, cosine-distance comparisons, **five folds**, and subsets of **1,000, 2,500, 5,000, and 10,000 images**.
+- **Evaluation and analysis:** examined recognition performance through **ROC-AUC, Equal Error Rate (EER), precision, recall, and F1-score**, alongside performance variations across experimental conditions.
+- **New research direction:** initiated experiments investigating **monocular depth maps**, including Depth Anything models, as signals for **deepfake detection**. This work is ongoing.
+
+### 📄 SIBGRAPI 2026 — Research paper and presentation
+
+**“A Comparative Evaluation of Pretrained Face Embedding Models for Face Verification”**  
+*Workshop of Undergraduate Works (WUW), SIBGRAPI 2026 — co-author and presenter.*
+
+The paper reports the FFC-10k benchmark and a controlled evaluation of 11 pretrained face-embedding models. This work documents my research contribution in dataset preparation, experimentation, and model evaluation.
+
+🔗 [Institutional research repository — CEIA-NoLeakIV / FFC-Dataset-10k](https://github.com/CEIA-NoLeakIV/FFC-Dataset-10k)
 
 ### 🏛️ Team milestone — NIST FRTE 1:1 (2026)
 
-A face-recognition algorithm submitted by the **CEIA-UFG team**, identified as **`ceiaufgbr-000`**, was **accepted, validated, and included in the U.S. National Institute of Standards and Technology (NIST) Face Recognition Technology Evaluation — 1:1 Verification**. NIST's official results list the submission with a **validation date of August 6, 2026**.
+The broader **CEIA-UFG research team** had a face-recognition algorithm, **`ceiaufgbr-000`**, **accepted, validated, and included in NIST's Face Recognition Technology Evaluation (FRTE) 1:1 Verification results**. Its official validation date is **August 6, 2026**.
 
-This refers to an **independent algorithm evaluation**, not product certification or endorsement by NIST.
+The SIBGRAPI study and the NIST submission are **related efforts within the team's face-recognition research**, but the 11-model benchmark should not be confused with the specific algorithm submitted to NIST. NIST evaluation is not a product certification or endorsement.
 
-🔗 [Official NIST FRTE 1:1 evaluation and results](https://pages.nist.gov/frvt/html/frvt11.html) · [CEIA / NoLeak IV — FFC-10k repository](https://github.com/CEIA-NoLeakIV/FFC-Dataset-10k)
+🔗 [NIST FRTE 1:1 official results](https://pages.nist.gov/frvt/html/frvt11.html)
 
 ## 🚀 Selected projects
 
 ### [FFC-Dataset-10k — Face Verification Benchmark](https://github.com/GralhaJ/FFC-Dataset-10k)
-Reproducibility resources for a comparative evaluation of pretrained face-embedding models.
+The reproducibility resources for my **SIBGRAPI 2026 research paper**, including **dataset-selection metadata** and a working example of an **ArcFace embedding and evaluation notebook**.
 
-- **10,000 images / 5,000 identities**, curated from seven face datasets.
-- Comparison of **11 pretrained models** under a standardized verification protocol.
-- Public resources include dataset-selection metadata and an **ArcFace evaluation notebook**.
-
-`Python` · `Computer Vision` · `Face Embeddings` · `Model Evaluation`
+`Python` · `Computer Vision` · `Face Verification` · `DeepFace` · `Model Evaluation`
 
 ### [Gotcha GPT — AI-Generated Academic Text Detection](https://github.com/andresilvapimentel/gotcha-gpt)
 **Co-author** of a peer-reviewed paper on distinguishing AI-generated from human-written academic text using machine learning. My credited contributions include **investigation, data curation, visualization, and writing review/editing**.
@@ -55,7 +61,11 @@ Systematic experiments with **K-Means, K-Medoids, and hierarchical clustering**,
 - **Computer vision:** face detection and alignment, embeddings, depth estimation
 - **Research:** dataset preparation, evaluation protocols, reproducibility, scientific writing
 
-## 📚 Publication
+## 📚 Research outputs
+
+**SIBGRAPI 2026 — Workshop of Undergraduate Works (WUW).**  
+*A Comparative Evaluation of Pretrained Face Embedding Models for Face Verification.* Co-author and presenter.  
+[Research repository](https://github.com/CEIA-NoLeakIV/FFC-Dataset-10k)
 
 **Gralha, J. G., & Pimentel, A. S. (2024).** *Gotcha GPT: Ensuring the Integrity in Academic Writing.*  
 *Journal of Chemical Information and Modeling*, **64**(21), 8091–8097.  
